@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}

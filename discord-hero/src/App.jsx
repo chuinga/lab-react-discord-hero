@@ -5,36 +5,24 @@ import './App.css'
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <nav>
+
+      </nav>
+      <body>
+        <h1>
+          IMAGINE A PLACE...
+        </h1>
+        <p>...where you can belong to a school club, a gaming group, or a</p>
+        <p>worldwide art community. Where just you and a handful of</p>
+        <p>friends can spend time together. A place that makes it easy to</p>
+        <p>talk every day and hang out more often.</p>
+        <button type="button"></button>
+        <button type="button"></button>
+      </body>
+
+    </div>
   );
 }
-/*function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}*/
 
 export default App
